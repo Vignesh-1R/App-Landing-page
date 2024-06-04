@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    align-items: center;
+    width: 350px;
+}
+ul:nth-child(1), ul:nth-child(2), ul:nth-child(3){
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: px 0; */
+    font-weight: 500;
+    font-size: 20px;
+}
+
+li:first-child {
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    position: relative;
+    z-index: -2;
+    width: 28px;
+    height: 34px;
+    align-items: baseline;
+}
+.circle {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 2.95em;
+    left: 1.05em;
+    /* align-content: center; */
+    /* transform: translate(50%,50%); */
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 2;
+}
+sup {
+    font-size: 5px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    align-items: center;
+}
+.leftAlign {
+    width: 618px;
+}
+#hookLine {
+    font-weight: bolder;
+    font-size: 64px;
+    position: relative;
+    z-index: 2;
+    line-height: 70px;
+}
+p {
+    color: gray;
+}
+.hi{
+    z-index: -1;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 1px 50px 10px #FDE598;
+    background-color: #FF5555;
+    filter: blur(30px);
+    width: 300px;
+    height: 150px;
+    top: 7em;
+    left: 12em;
+}
+.hi2 {
+    box-shadow: 2px 40px 10px #FF5555;
+    border-radius: 50%;
+    width: 200px;
+    height: 120px;
+    top: 20em;
+    left: 8em;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+.getStarted {
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+button, a , li{
+    cursor: pointer;
+}
+.fa-play-circle-o {
+    font-size: 20px;
+}
+
+aside, #bgCircle {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    z-index: -2;
+}
+
+#phone1, #phone2, #phone3 {
+    position: absolute;
+    left: 2em;
+    /* width: 350px;
+    height: 500px; */
+}
+#phone3{
+
+    width: 300px;
+    z-index: 0;
+    top: 5em;
+    left: 10em;
+}
+#phone2{
+    width: 370px;
+    z-index: 1;
+    top: 3em;
+    left: 5em;
+}
+
+#phone1 {
+    width: 400px;
+    left: -1.5em;
+    top: -1.8em;
+    z-index: 2;
+}
+
+#starDad {
+    position: relative;
+}
+.star1 {
+    position: absolute;
+    top: 1em;
+    left: -20px;
+    width: 48px;
+    height: 48px;
+    rotate: 180deg;
+}
+.star2 {
+    position: absolute;
+    top: 1em;
+    right: 20px;
+    width: 64px;
+    height: 64px;
+    rotate: 0deg;
+}
+.star3 {
+    position: absolute;
+    top: 30em;
+    right: 380px;
+    width: 38px;
+    height: 38px;
+    rotate: 210deg;
+}
+.star4 {
+    position: absolute;
+    top: 28em;
+    left: 150px;
+    width: 48px;
+    height: 48px;
+    rotate: 180deg;
+}
+
+@media  (max-width:600px) {
+    header{
+        width: 600px;
+    }
+}
