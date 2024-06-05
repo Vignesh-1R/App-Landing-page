@@ -28,7 +28,7 @@ function App() {
         <i class="fa fa-play-circle-o" aria-hidden="true"> Watch Video</i>
         </a>
     </span>
-        <img src={Achievements} alt="" />
+        <img src={Achievements} className="achievements" alt="" />
     
         </article>
     <aside>
