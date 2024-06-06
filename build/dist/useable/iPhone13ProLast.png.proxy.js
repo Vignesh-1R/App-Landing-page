@@ -1,0 +1,1 @@
+export default "/dist/useable/iPhone13ProLast.png";
